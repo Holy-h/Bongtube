@@ -1,0 +1,11 @@
+{
+  "name": "bongtube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube & Edu0830 with vanilla and NodeJS",
+  "main": "index.js",
+  "author": "Bonggt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
