@@ -27,4 +27,9 @@ app.get("/", handleHome);
 
 app.get("/profile", handleProfile);
 
-export default app;
+const PORT = 4000;
+
+const handleListening = () =>
+  console.log(`Express server on: http://localhost:${PORT}`);
+
+app.listen(PORT, handleListening);
